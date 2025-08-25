@@ -1,0 +1,149 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+    display: inline-block;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info {
+    font-size: 23px;
+    color: #666666;
+    text-align: center;
+}
+
+.number {
+    font-size: 90px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #FFEC81;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    margin: 0 auto 20px auto;
+}
+
+main {
+    display: flex;
+    height: 290px;
+    width: 950px;
+    margin: 20px auto auto 180px;
+    border-radius: 25px;
+    background-color: #3D81FF;
+    box-shadow: 1px 1px 1px 3px #070152;
+}
+
+.boxNum {
+    background-color: #ffffff;
+    margin: 20px;
+    width: 480px;
+    border-radius: 20px 0 0 20px;
+}
+
+.btnAgain {
+    background-color: #A6AFCC;
+    border: none;
+    border-radius: 7px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    margin: 50px auto 0 15px;
+}
+
+.btnAgain:hover {
+    background-color: #61677e;
+    color: #e2e2e0;
+}
+
+.btnCheck {
+    background-color: #37F24C;
+    border: none;
+    border-radius: 7px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin: 20px 15px 0 172px;
+}
+
+.btnCheck:hover {
+    background-color: #065c12;
+    color: #e2e2e0;
+}
+
+.guess {
+    width: 440px;
+    height: 120px;
+    box-decoration-break: none;
+    border-radius: 7px 0 0 7px;
+    border: rgb(1, 1, 15) 1px solid;
+    font-size: 36px;
+    text-align: center;
+    margin: 16px 0 5px 16px;
+}
+
+.btnArrow {
+    width: 131px;
+    height: 254px;
+    margin: 16px 0 5px 8px;
+}
+
+.btnUp, .btnDown {
+    width: 131px;
+    height: 120px;
+    font-size: 70px;
+    margin: 5px 0 5px 0;
+    background-color: #F45A5A;
+    cursor: pointer;
+}
+
+.infoScore {
+    font-size: 23px;
+    color: #0c0909;
+    font-display: column;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px;
+    width: 250px;
+    border-radius: 0 20px 20px 0;
+}
+
+.labelScore
+.labelHighScore {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+}
+
+.score,
+.highscore {
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0 20px 0;
+    font-size: 30px;
+}

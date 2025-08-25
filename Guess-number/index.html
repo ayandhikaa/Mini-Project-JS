@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Guess My Number</title>
 </head>
 <body>
@@ -10,21 +11,25 @@
         <header>   
             <h1>Guess My Number</h1>
             <p class="info">Please guess number between 1 and 25</p>
-            <button class="btnAgain">Again!</button>
+            <div class="number">?</div>
         </header>
         <main>
             <section class="boxNum">
                 <input type="number" class="guess" placeholder="">
-                <button class="btnCheck">Check!</button>
-                <div class="number">?</div>
+                <section class="button">
+                    <button class="btnAgain">Try Again</button>
+                    <button class="btnCheck">Check</button>
+                </section>
             </section>
+            <div class="btnArrow">
+                <button class="btnUp">▲</button>
+                <button class="btnDown">▼</button>
+            </div>
             <section class="infoScore">
-                <p class="label-score">Score: 
-                    <span class="score">20</span>
-                </p>
-                <p class="label-highscore">Highscore: 
-                    <span class="highscore">0</span>
-                </p>
+                <p class="label-highscore">Highscore</p>
+                <span class="highscore">0</span>
+                <p class="label-score">Score</p>
+                <span class="score">20</span>
             </section>
         </main>
         <script src="script.js"></script>
