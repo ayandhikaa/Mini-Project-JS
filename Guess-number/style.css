@@ -34,7 +34,7 @@ h1 {
     color: #ffffff;
     margin-bottom: 20px;
     text-align: center;
-    background-color: #FFEC81;
+    background-color: #fce76f;
     border-radius: 12px;
     width: 120px;
     height: 120px;
@@ -119,6 +119,11 @@ main {
     margin: 5px 0 5px 0;
     background-color: #F45A5A;
     cursor: pointer;
+}
+
+.btnUp:hover, .btnDown:hover {
+    background-color: #7a1a1a;
+    color: #e2e2e0;
 }
 
 .infoScore {
