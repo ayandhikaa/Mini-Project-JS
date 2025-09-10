@@ -1,0 +1,128 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    color: #F0A06F;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px 0 10px 30px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin: 10px 30px 10px 30px;
+}
+
+.title  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 110px;
+    margin: 20px 30px 10px 30px;
+    color: #264AFF;
+}
+
+.show-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 30px 0;
+    
+}
+
+.show-modal1 {
+    margin: 0 30px 0 0;
+    padding: 10px 60px;
+    font-size: 40px;
+    background-color: #E9A4A4;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.show-modal2 {
+    margin: 0 30px 0 0;
+    padding: 10px 60px;
+    font-size: 40px;
+    border: none;
+    background-color: #F8E88C;
+    border-radius: 10px;
+    text-align: center;
+}
+.show-modal3 {
+    margin: 0 30px 0 0;
+    padding: 10px 60px;
+    font-size: 40px;
+    background-color: #A8F391;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.show-modal4 {
+    margin: 0 30px 0 0;
+    padding: 10px 60px;
+    font-size: 40px;
+    background-color: #B3BDF9;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.show-modal5 {
+    margin: 0 30px 0 0;
+    padding: 10px 60px;
+    background-color: #E4B0FB;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.hidden {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    background-color: #fff;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    backdrop-filter: blur(2px);
+}
